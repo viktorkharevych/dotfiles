@@ -232,4 +232,4 @@ bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle
 #exec --no-startup-id gnome-terminal
 #exec --no-startup-id code
 bindsym Print exec scrot ~/Pictures/screenshot_%Y-%m-%d_%H-%M-%S.png
-
+-
