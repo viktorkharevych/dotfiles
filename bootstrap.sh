@@ -20,3 +20,7 @@ echo "[✓] Linked i3 + i3status configs"
 # aliases
 stow aliases
 echo "[✓] Linked aliases"
+
+# bash (.bashrc)
+stow bash
+echo "[✓] Linked bash config"
