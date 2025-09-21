@@ -63,9 +63,10 @@ load {
         format = "%1min"
 }
 
-disk "/" {
-        format = "%avail"
-}
+#disk "/" {
+#        format = "%avail"
+#}
+
 cpu_temperature 0 {
         format = "T: %degrees °C"
         path = "/sys/devices/platform/coretemp.0/temp1_input"
