@@ -231,4 +231,7 @@ bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle
 #exec --no-startup-id google-chrome
 #exec --no-startup-id gnome-terminal
 #exec --no-startup-id code
-bindsym Print exec scrot ~/Pictures/screenshot_%Y-%m-%d_%H-%M-%S.png
+exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
+
+## Screenshot
+bindsym --release $mod+Shift+s exec --no-startup-id sh -c "maim --select /tmp/shot.png && xclip -selection clipboard -t image/png -i /tmp/shot.png"
